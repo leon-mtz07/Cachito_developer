@@ -61,11 +61,11 @@ def header() -> rx.Component:
                 align="center"
             ),
             rx.text(
-                "¡Guau! Hola, mi nombre es Cachito"
+                "Woof! Hi, my name is Cachito"
             ),
-            rx.text("""¡Guau! Soy Schnauzer con pasión por la programación. 
-                        Mis lenguajes favoritos son Python, C++, y R. Disfruto creando proyectos, automatizando tareas 
-                        y analizando datos. Si necesitas un compañero de codificación peludo, ¡estoy aquí! 🐾💻""")
+            rx.text("""**Woof! I'm a Schnauzer with a passion for programming. 
+            My favorite languages are Python, C++, and R. I enjoy creating projects, automating tasks, and analyzing 
+            data. If you need a furry coding companion, I'm here!** 🐾💻""")
 
         )
     )

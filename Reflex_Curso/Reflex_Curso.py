@@ -13,7 +13,7 @@ class State(rx.State):
 
 @rx.page(
     title="Cachito",
-    description="Está es una página para poder describir algo de mí, aunque sea algo breve",
+    description="This is a page to describe something about myself, even if it's something brief.",
     image="/assets/Cachito.png",
     meta=[
         {"name": "theme_color", "content": "FFFFFF"},
@@ -36,7 +36,7 @@ def index() -> rx.Component:
             rx.hstack(
                 rx.divider(margin="0"),
                 rx.text(
-                    "🐾Links de interés para que te hagas tan bueno como yo🐾",
+                    "🐾Useful links to help you become as good as I am.🐾",
                     weight="bold",
                     white_space="nowrap",
                     size="3",
