@@ -1,6 +1,6 @@
 *.db
 *.py[cod]
-.web
-__pycache__/
 .DS_Store
 .idea
+.web
+__pycache__/
